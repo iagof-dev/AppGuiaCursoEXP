@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGuiaCursoEXP.Inicial">
+    <ContentPage.Content>
+
+        <ScrollView>
+
+            <StackLayout Padding="10">
+
+                <Label Text="Olá! Este é o App para guiá-lo pelo Curso Técnico em Desenvolvimento de Sistemas"
+                   FontSize="Medium"
+                   Style="{ StaticResource textoCentralizado }" />
+
+                <Label Text="O curso tem três módulos e dura um ano e meio. Pensamos em desenvolver este App para explicar o conteúdo"
+                   FontSize="Medium"
+                   Style="{ StaticResource textoCentralizado }" />
+
+                <Label Text="Em breve este App estará disponível na Play Store para download."
+                   TextColor="#AB0209"
+                   Style="{ StaticResource textoCentralizado }"/>
+
+                <Image Source="alunos" />
+
+                <Label Text="Este App foi desenvolvido sob a orientação do Prof. Tiago A. Silva e da Profa. Nídia Castelli"
+                   Style="{ StaticResource textoCentralizado }" />
+
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
